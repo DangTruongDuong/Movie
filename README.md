@@ -1,92 +1,56 @@
 VuePhim 🎬
 
-VuePhim là ứng dụng web hiện đại, được xây dựng bằng Vue.js, cho phép người dùng khám phá, tìm kiếm và lọc phim từ API PhimAPI. Với giao diện responsive, hiệu ứng mượt mà và trải nghiệm người dùng tuyệt vời, VuePhim mang đến thế giới phim ảnh ngay trong tầm tay bạn! 🚀
+VuePhim - Ứng dụng web Vue.js hiện đại, tích hợp PhimAPI, mang đến trải nghiệm khám phá phim mượt mà với giao diện đẹp, bộ lọc thông minh, và responsive tối ưu.
 
 Giới Thiệu
-VuePhim là một nền tảng front-end dành cho người yêu phim, tích hợp API mạnh mẽ để hiển thị danh sách phim đa dạng theo thể loại, quốc gia và năm phát hành. Ứng dụng được thiết kế với giao diện trực quan, tốc độ tải nhanh, và hỗ trợ mọi thiết bị từ PC đến di động.
-Tại sao chọn VuePhim?
+VuePhim là nền tảng front-end dành cho người yêu phim, cho phép duyệt, lọc, và tìm kiếm phim theo thể loại, quốc gia, năm phát hành. Với thiết kế tinh tế và hiệu suất cao, VuePhim đem thế giới phim ảnh đến ngay màn hình của bạn.
+Giá trị cốt lõi: Giao diện điện ảnh, tốc độ nhanh, trải nghiệm liền mạch.
 
-Giao diện đẹp mắt, phong cách điện ảnh.
-Bộ lọc phim thông minh, tìm kiếm tức thì.
-Tối ưu hiệu suất với Vue.js và Axios.
-
-
-Tính Năng Nổi Bật 🌟
-
-Danh Sách Phim Động: Xem phim mới, phim theo thể loại (Hành Động, Anime, Tình Cảm) hoặc quốc gia (Việt Nam, Trung Quốc, Mỹ).
-Lọc Phim Nâng Cao: Lựa chọn phim theo loại (Phim lẻ, Phim bộ), thể loại, quốc gia, và năm phát hành.
-Tìm Kiếm Thông Minh: Tìm phim nhanh chóng với từ khóa, hiển thị tối đa 20 phim mỗi trang.
-Giao Diện Responsive: Hoạt động hoàn hảo trên mọi thiết bị: PC, tablet, điện thoại.
-Hiệu Ứng Mượt Mà: Slider tự cuộn, hiệu ứng hover, spinner loading đẹp mắt.
-Chi Tiết Phim: Xem thông tin phim như poster, thời lượng, ngôn ngữ, chất lượng.
+Tính Năng Nổi Bật
+🌟 Danh sách phim động: Xem phim mới, Anime, Hành Động, Hoa Ngữ.
+🌟 Lọc phim thông minh: Theo loại, thể loại, quốc gia, năm phát hành.
+🌟 Tìm kiếm tức thì: Kết quả nhanh với phân trang (20 phim/trang).
+🌟 Responsive: Tối ưu PC, tablet, điện thoại.
+🌟 Hiệu ứng mượt: Slider tự cuộn, hover, spinner loading đẹp.
+🌟 Chi tiết phim: Poster, thời lượng, ngôn ngữ, chất lượng.
 
 
 Hình Ảnh Minh Họa
 
-Thêm GIF hoặc ảnh chụp màn hình để làm nổi bật giao diện!Ví dụ:Để thêm GIF, ghi lại thao tác (dùng ScreenToGif) và upload vào docs/demo.gif.
+Thêm GIF/ảnh để khoe giao diện!Tạo GIF bằng ScreenToGif, upload vào docs/demo.gif.
 
 
-Cài Đặt 🛠
-Yêu Cầu
+Cài Đặt
+🛠 Yêu cầu:
+  - Node.js v14.x+
+  - npm v6.x+
+  - Git
 
-Node.js: v14.x trở lên
-npm: v6.x trở lên
-Git: Để clone repository
-
-Hướng Dẫn
-
-Clone Repository  
-git clone https://github.com/your-username/vuephim.git
-cd vuephim
-
-
-Cài Đặt Thư Viện  
-npm install
+🛠 Bước thực hiện:
+  1. Clone: git clone https://github.com/your-username/vuephim.git
+  2. Vào thư mục: cd vuephim
+  3. Cài thư viện: npm install
+  4. Chạy: npm run serve
+  5. Truy cập: http://localhost:8080
 
 
-Chạy Ứng Dụng  
-npm run serve
+Hướng Dẫn Sử Dụng
+📖 Khám phá phim:
+  - Trang chủ: Xem Phim Mới, Anime, Hoa Ngữ qua slider tự cuộn.
+
+📖 Lọc phim:
+  - Vào "Danh Sách Phim", chọn loại, thể loại, quốc gia, năm.
+  - Nhấn "Lọc phim" để xem kết quả.
+
+📖 Tìm kiếm:
+  - Nhập từ khóa vào ô tìm kiếm trên navbar.
+  - Duyệt kết quả với phân trang.
+
+📖 Chi tiết phim:
+  - Nhấn "Xem phim" trên thẻ phim để vào /movie/:slug.
 
 
-Truy CậpMở trình duyệt và vào http://localhost:8080.
-
-
-
-Hướng Dẫn Sử Dụng 📖
-
-Khám Phá Phim  
-
-Trang chủ hiển thị các danh mục phim nổi bật: Phim Mới, Anime, Phim Hoa Ngữ.
-Dùng slider tự cuộn để xem phim hot.
-
-
-Lọc Phim  
-
-Vào trang Danh Sách Phim từ thanh điều hướng.
-Chọn bộ lọc:
-Loại: Phim lẻ, Phim bộ, Hoạt hình.
-Thể loại: Hành Động, Tình Cảm, Kinh Dị, v.v.
-Quốc gia: Việt Nam, Trung Quốc, Hàn Quốc, v.v.
-Năm phát hành: 1970 đến nay.
-
-
-Nhấn Lọc phim để xem kết quả.
-
-
-Tìm Kiếm  
-
-Nhập từ khóa vào ô tìm kiếm trên navbar.
-Duyệt kết quả với phân trang (20 phim/trang).
-
-
-Xem Chi Tiết  
-
-Nhấn Xem phim trên thẻ phim để vào trang chi tiết (/movie/:slug).
-
-
-
-
-Công Nghệ Sử Dụng 💻
+Công Nghệ Sử Dụng
 
 
 
@@ -103,12 +67,12 @@ Framework front-end
 
 JavaScript
 ES6+
-Lập trình logic
+Logic chính
 
 
 Axios
 0.21.x
-Gọi API HTTP
+Gọi API
 
 
 Vue Router
@@ -118,48 +82,55 @@ Vue Router
 
 CSS3
 -
-Thiết kế giao diện, hiệu ứng
+Giao diện, hiệu ứng
 
 
 
-Cấu Trúc Dự Án 📂
-vuephim/
-├── public/                 # Tài nguyên tĩnh (favicon, index.html)
-├── src/                    # Mã nguồn chính
-│   ├── assets/             # Hình ảnh, CSS toàn cục
-│   ├── components/         # Các component Vue
-│   │   ├── HomePage.vue    # Trang chủ (slider, danh sách phim)
-│   │   ├── MovieList.vue   # Trang danh sách phim (lọc, tìm kiếm)
-│   │   └── Navbar.vue      # Thanh điều hướng
-│   ├── router/             # Cấu hình Vue Router
-│   └── App.vue             # Component gốc
-├── package.json            # Dependencies và scripts
-└── README.md               # Tài liệu này
+Cấu Trúc Dự Án
 
 
-Đóng Góp 🤝
-Chúng tôi rất mong nhận được đóng góp từ cộng đồng! Để tham gia:
 
-Fork repository này.
-Tạo nhánh mới:  git checkout -b feature/ten-tinh-nang
+Thư Mục/File
+Mô Tả
 
 
-Commit thay đổi:  git commit -m "Thêm tính năng XYZ"
+
+src/components/HomePage.vue
+Trang chủ, slider, danh sách phim
 
 
-Push lên nhánh:  git push origin feature/ten-tinh-nang
+src/components/MovieList.vue
+Danh sách phim, bộ lọc, tìm kiếm
 
 
-Tạo Pull Request trên GitHub.
+src/components/Navbar.vue
+Thanh điều hướng
 
 
-Giấy Phép 📜
-Dự án được phát hành dưới Giấy phép MIT. Bạn có thể tự do sử dụng, chỉnh sửa và phân phối.
+src/router/
+Cấu hình Vue Router
 
-Liên Hệ 📬
 
-Tác giả: [Your Name]  
-Email: your.email@example.com  
-GitHub: your-username
+src/App.vue
+Component gốc
 
-VuePhim được tạo ra để mang niềm vui xem phim đến mọi người! Hãy thử ngay, để lại một ⭐ trên GitHub nếu bạn thích, và chia sẻ ý tưởng để cải thiện dự án! 😊
+
+
+Đóng Góp
+🤝 Hướng dẫn:
+  1. Fork repository.
+  2. Tạo nhánh: git checkout -b feature/ten-tinh-nang
+  3. Commit: git commit -m "Thêm XYZ"
+  4. Push: git push origin feature/ten-tinh-nang
+  5. Tạo Pull Request trên GitHub.
+
+
+Giấy Phép
+Dự án sử dụng Giấy phép MIT. Tự do sử dụng, chỉnh sửa, phân phối.
+
+Liên Hệ
+📬 Tác giả: [Your Name]
+📬 Email: your.email@example.com
+📬 GitHub: [your-username](https://github.com/your-username)
+
+VuePhim - Khám phá phim ảnh theo cách của bạn! Thử ngay và để lại ⭐ trên GitHub! 😊

@@ -38,7 +38,7 @@ VuePhim là nền tảng front-end dành cho người yêu phim, hỗ trợ duy�
   - npm v6.x+
   - Git
 🛠 Bước thực hiện:
-  1. Clone: git clone https://github.com/your-username/vuephim.git
+  1. Clone: git clone https://github.com/DangTruongDuong/Movie.git
   2. Vào thư mục: cd vuephim
   3. Cài thư viện: npm install
   4. Chạy: npm run serve

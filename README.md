@@ -30,14 +30,6 @@ VuePhim là nền tảng front-end dành cho người yêu phim, hỗ trợ duy�
 
 ---
 
-## Hình Ảnh Minh Họa
-
-> Thêm GIF/ảnh để khoe giao diện!  
-> ![VuePhim Demo](https://via.placeholder.com/800x400/252525/ffffff?text=VuePhim+Demo)  
-> Tạo GIF bằng ScreenToGif, upload vào `docs/demo.gif`.
-
----
-
 ## Cài Đặt
 
 ```markdown
@@ -90,8 +82,8 @@ VuePhim là nền tảng front-end dành cho người yêu phim, hỗ trợ duy�
 
 | Thư Mục/File         | Mô Tả                           |
 |----------------------|---------------------------------|
-| `src/components/HomePage.vue` | Trang chủ, slider, danh sách phim |
-| `src/components/MovieList.vue` | Danh sách phim, bộ lọc, tìm kiếm |
+| `src/components/Trang-Chu.vue` | Trang chủ, slider, danh sách phim |
+| `src/components/Danh-Sach-Phim.vue` | Danh sách phim, bộ lọc, tìm kiếm |
 | `src/components/Navbar.vue`   | Thanh điều hướng                |
 | `src/router/`        | Cấu hình Vue Router             |
 | `src/App.vue`        | Component gốc                   |

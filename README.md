@@ -117,6 +117,7 @@ Dự án sử dụng [Giấy phép MIT](LICENSE). Tự do sử dụng, chỉnh s
 📬 Tác giả: [Đặng Trường Dương]
 📬 Email: Dangtruongduong2102@gmail.com
 📬 GitHub: [DangTruongDuong](https://github.com/DangTruongDuong)
+📬 Tài liệu tham khảo: Youtube Hiếu Tutorial with live project, Nguyễn thanh bình
 -------------------------
 ```
 

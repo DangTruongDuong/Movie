@@ -1,6 +1,5 @@
 # VuePhim 🎬
 
-![VuePhim Banner](https://via.placeholder.com/1200x300/1c1c1c/ffffff?text=VuePhim+-+Khám+Phá+Phim+Ảnh)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D)](https://vuejs.org/) [![Build](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/your-username/vuephim) [![Version](https://img.shields.io/badge/Version-1.0.0-blue)](https://github.com/your-username/vuephim/releases)
 
 **VuePhim** - Ứng dụng web Vue.js tích hợp [PhimAPI](https://phimapi.com/), mang đến trải nghiệm khám phá phim mượt mà với giao diện đẹp, bộ lọc thông minh, responsive tối ưu.
@@ -115,9 +114,9 @@ Dự án sử dụng [Giấy phép MIT](LICENSE). Tự do sử dụng, chỉnh s
 
 ```markdown
 -------------------------
-📬 Tác giả: [Your Name]
-📬 Email: your.email@example.com
-📬 GitHub: [your-username](https://github.com/your-username)
+📬 Tác giả: [Đặng Trường Dương]
+📬 Email: Dangtruongduong2102@gmail.com
+📬 GitHub: [DangTruongDuong](https://github.com/DangTruongDuong)
 -------------------------
 ```
 

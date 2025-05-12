@@ -1,4 +1,4 @@
-# VuePhim 🎬
+# VuePhim 🎬 link web: http://phim.dangtruongduong.id.vn/
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D)](https://vuejs.org/) [![Build](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/your-username/vuephim) [![Version](https://img.shields.io/badge/Version-1.0.0-blue)](https://github.com/your-username/vuephim/releases)
 
